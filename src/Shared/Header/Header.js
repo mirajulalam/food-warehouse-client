@@ -6,7 +6,10 @@ const Header = () => {
   const menuItems = (
     <>
       <li>
-        <Link to="/" className="font-semibold">
+        <Link
+          to="/"
+          className="font-semibold  hover: underline underline-offset-4"
+        >
           Home
         </Link>
       </li>
@@ -18,7 +21,7 @@ const Header = () => {
     </>
   );
   return (
-    <div className="navbar bg-white text-black shadow-lg px-16 z-50 top-0 sticky">
+    <div className="navbar bg-white text-black shadow-lg lg:px-16 md:px-8 z-50 top-0 sticky">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
