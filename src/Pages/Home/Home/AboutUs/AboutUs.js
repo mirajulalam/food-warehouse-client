@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div>
           <h1 className="lg:text-6xl lg:font-bold sm:text-2xl">
-            <span className="text-warning">𝘼𝙗𝙤𝙪𝙩</span> Us
+            <span className="text-warning">𝘈𝘣𝘰𝘶𝘵</span> Us
           </h1>
           <h3 className="text-2xl font-bold py-12">Why Choose us?</h3>
           <p className="pb-8">
